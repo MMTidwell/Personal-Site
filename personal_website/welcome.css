@@ -1,0 +1,103 @@
+/*http://codeup.dev/personal_website/welcome.php
+http://codeup.dev/personal_website/resume.php
+http://codeup.dev/personal_website/personal_contact.php
+http://codeup.dev/personal_website/portfolio.php*/
+
+
+
+
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+  /*background: url("../img/original_code.jpg");  */
+  /*background: url("../img/lace2.jpg");*/
+  /*background: url("../img/green.jpg");*/
+  /*background: url("../img/black_wood.jpg");*/
+  background: url("../personal_website/blue_drip.jpg");
+
+
+  /*background: url("../img/code.jpg");*/
+
+  /*background-color: white;*/
+  background-size: cover;
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.top_navbar{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+  font-family: fantasy;
+  font-size: 33px;
+  color: white;
+  text-align: left;
+  background-color: black;
+  padding-top: 10px;
+
+}
+
+/* CUSTOMIZE THE BANNER
+-------------------------------------------------- */
+
+/* Banner class */
+
+#self {
+	border: 3px solid white;
+	margin: 0 auto;
+	border-radius: 20%;
+  margin-top: 100px;
+  margin-bottom: 10px; 
+  display: block;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  /*margin-bottom: 20px;*/
+  text-align: center;
+  /*padding-top: 15px;*/
+  font-family: fantasy;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  /*padding-right: 2%;*/
+  margin-top: 8%
+
+}
+
+.img-round {
+  border: 3px solid white;
+  border-radius: 50%;
+  margin-top: 5%;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
