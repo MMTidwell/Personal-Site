@@ -1,0 +1,71 @@
+Guide lines - 
+	- Get deployed mid session
+	- Will be working on for rest of week
+	- Go the extra mile
+	- HTML, CSS, JS
+	- Be ready for potential employer
+		- Resume
+		- Contact Info
+	- Can it be seen in mobile
+		- Is your site responsive
+		- How is the layout on different screen sizes
+	- Integrate your past projects
+		- Simple Simon
+		- Weather Map
+		- Calculator
+	- Contact Info
+		- email
+		- link to social media (Linkedin, GitHub) - use icons
+	- Have APIs
+		- GitHub most recent 3 commits
+		- Weather underground to show the weather where you are
+		- Google maps, twitter, reddit, or youtube
+	- Extra (one or more of the following)
+		- Video Resume
+		- Interactive portfolio / skills
+		- Blog post / Tutorial / Walkthrough
+			- general thoughts on something
+			- tutorial on using a tool
+			- walkthrough of some code
+			- include snippets
+			- look into <code> element
+		- Scroll events
+			- Create a docking navbar
+			- Create transitions when users scroll to different sections of your site
+		- Side project showcase
+		- Be creative
+			- Make it unique  
+
+
+Small Bugs and Notes - 
+	- Look through past projects and improve
+
+Outline - 
+	- Welcome page
+		- Navbar
+			- About
+			- Examples of work
+			- Social media
+			- Blog
+			- Contact Info
+	- About
+		- Career Story
+	- Examples of work
+		- Simple Simon
+		- Weather Map
+		- Calculator
+	- Social media
+		- Linkedin (API)
+		- GitHub (API)
+	- Side Project
+		- 
+	- Contact Info
+		- email
+
+
+index.html file is your landing page
+	- can be used in sub folders as well
+
+
+
+
