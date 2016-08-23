@@ -1,3 +1,12 @@
+when you are ready to make a change live...
+	- first add and commit it, for example
+		git add index.html css/style.css
+		git commit
+	- then push the code to your server
+		git push warpspeed master
+	- remember to also push to github so that your repositories don't get out of sync 
+		git push origin master
+
 Guide lines - 
 	- Get deployed mid session
 	- Will be working on for rest of week
@@ -63,8 +72,6 @@ Outline -
 		- email
 
 
-index.html file is your landing page
-	- can be used in sub folders as well
 
 
 
