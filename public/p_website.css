@@ -4,7 +4,7 @@ body, h1, h2, h3, h4, h5, h6 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
-
+ 
 /* ========= INTRO =========*/
 /* intro background image */
 .intro-header {
@@ -32,8 +32,7 @@ body, h1, h2, h3, h4, h5, h6 {
 /* dividing line */
 .intro-divider {
     width: 100%;
-    border-top: 1px solid DodgerBlue;
-    border-bottom: 1px solid DodgerBlue;
+    border: 3px solid #721817;
 }
 
 /* connect buttons */
@@ -51,6 +50,7 @@ body, h1, h2, h3, h4, h5, h6 {
 
 /* navbar links */
 .nav.navbar-nav.navbar-right li a {
+	background: rgba(0, 0, 0, 0.5);
     color: cyan;
 	font-size: 1.3em;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);   
@@ -87,8 +87,23 @@ body, h1, h2, h3, h4, h5, h6 {
     }
 }
 
+/* ========= ABOUT ========= */
+.content-section-a {
+    padding: 50px 0;
+    background-color: #DDFFF7;
+}
 
+#headshot {
+	border: 3px solid #721817;
+	border-radius: 10%;
+	/*margin-top: 6%*/
+}
 
+.divider {
+	border: 3px solid #721817;
+	width: 40%;
+	margin-bottom: 2%;
+}
 
 .network-name {
     text-transform: uppercase;
@@ -97,15 +112,11 @@ body, h1, h2, h3, h4, h5, h6 {
     letter-spacing: 2px;
 }
 
-.content-section-a {
-    padding: 50px 0;
-    background-color: #f8f8f8;
-}
-
 .content-section-b {
     padding: 50px 0;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
+    background-color: #8DA7BE;
 }
 
 .section-heading {
