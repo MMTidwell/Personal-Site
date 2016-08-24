@@ -96,7 +96,6 @@ body, h1, h2, h3, h4, h5, h6 {
 #headshot {
 	border: 3px solid #721817;
 	border-radius: 10%;
-	/*margin-top: 6%*/
 }
 
 .divider {
@@ -105,18 +104,48 @@ body, h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 2%;
 }
 
-.network-name {
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 2px;
-}
-
+/* ========= CODE ========= */
 .content-section-b {
     padding: 50px 0;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
     background-color: #8DA7BE;
+}
+
+.divider2 {
+	border: 3px solid #721817;
+	width: 40%;
+	margin-bottom: 2%;
+	margin-left: 60%;
+}
+
+.carousel.slide {
+    height: 500px;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+    height: 500px;
+}
+
+.code-disc {
+    margin-top: 5%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
 }
 
 .section-heading {
