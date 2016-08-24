@@ -14,11 +14,11 @@ body, h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
-/* container for name bar and buttons */
+/* container for name bar, buttons, and navbar */
 .intro-message {
 	color: cyan;
     position: relative;
-    padding-top: 30%;
+    padding-top: 20%;
     padding-bottom: 20%;
 }
 
@@ -40,6 +40,28 @@ body, h1, h2, h3, h4, h5, h6 {
 .intro-social-buttons a {
 	background-color: cyan;
 }
+
+/* navbar */
+.navbar {
+	height: 20px;
+    font-weight: 700;
+	background: transparent;
+	border: transparent;
+}
+
+/* navbar links */
+.nav.navbar-nav.navbar-right li a {
+    color: cyan;
+	font-size: 1.3em;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);   
+}
+
+/* navbar small */
+.navbar-toggle {
+	position: right;
+	background: cyan;
+}
+
 
 @media(max-width:767px) {
     .intro-message {
