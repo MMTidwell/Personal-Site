@@ -9,7 +9,7 @@ body, h1, h2, h3, h4, h5, h6 {
 /* intro background image */
 .intro-header {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 65px;
     background: url("cards.jpg") no-repeat center center;
     background-size: cover;
 }
@@ -93,15 +93,28 @@ body, h1, h2, h3, h4, h5, h6 {
     background-color: #DDFFF7;
 }
 
+#swirl {
+    width: 100%;
+    position: absolute;
+    margin-top: 3%;
+}
+
 #headshot {
 	border: 3px solid #721817;
-	border-radius: 10%;
+	border-radius: 50%;
 }
 
 .divider {
 	border: 3px solid #721817;
 	width: 40%;
 	margin-bottom: 2%;
+}
+
+#bio {
+    background: rgba(119, 136, 153, 0.4);
+    margin-top: 32%;
+    text-align: center;
+    border: 2px solid #721817;
 }
 
 /* ========= CODE ========= */
@@ -123,11 +136,14 @@ body, h1, h2, h3, h4, h5, h6 {
     height: 500px;
     margin: 0 auto;
     width: 60%;
+    box-shadow: -10px 10px 10px #444;
 }
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     width: 100%;
     height: 500px;
+    border: 3px solid #721817;
+
 }
 
 .code-disc {

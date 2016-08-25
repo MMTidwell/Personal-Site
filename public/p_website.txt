@@ -48,28 +48,44 @@ Guide lines -
 
 Small Bugs and Notes - 
 	- Look through past projects and improve
+	- Landing page
+		- update the navbar to show all sections
+	- About
+		- Fill in bio
+	- Code
+		- Make carousel click able and allow client to interact with projects
+		- Fill in bio
 
 Outline - 
-	- Welcome page
-		- Navbar
-			- About
-			- Examples of work
-			- Social media
-			- Blog
+	√ - Welcome page
+		√ - Navbar
+			√ - About
+			√ - Examples of work
+			√ - Social media
+			- Blog 
 			- Contact Info
-	- About
+			- Resume
+		√ - Social media
+			√ - Linkedin (API)
+			√ - GitHub (API)
+	√ - About
 		- Career Story
-	- Examples of work
+	√ - Examples of work
 		- Simple Simon
 		- Weather Map
 		- Calculator
-	- Social media
-		- Linkedin (API)
-		- GitHub (API)
-	- Side Project
-		- 
+		- Side Project
+			- 
+	- API
+		- Github, last 3 commits
+	- Blog
+		- general thoughts on something
+		- walkthrough on some code
+		- snippets		
 	- Contact Info
 		- email
+	
+	
 
 
 
