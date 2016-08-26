@@ -1,4 +1,4 @@
-when you are ready to make a change live...
+√ when you are ready to make a change live...
 	- first add and commit it, for example
 		git add index.html css/style.css
 		git commit
@@ -8,10 +8,10 @@ when you are ready to make a change live...
 		git push origin master
 
 Guide lines - 
-	- Get deployed mid session
-	- Will be working on for rest of week
-	- Go the extra mile
-	- HTML, CSS, JS
+	√ - Get deployed mid session
+	√ - Will be working on for rest of week
+	√ - Go the extra mile
+	√ - HTML, CSS, JS
 	- Be ready for potential employer
 		- Resume
 		- Contact Info
@@ -24,18 +24,18 @@ Guide lines -
 		- Calculator
 	- Contact Info
 		- email
-		- link to social media (Linkedin, GitHub) - use icons
+		√ - link to social media (Linkedin, GitHub) - use icons
 	- Have APIs
-		- GitHub most recent 3 commits
+		√ - GitHub most recent 3 commits
 		- Weather underground to show the weather where you are
 		- Google maps, twitter, reddit, or youtube
 	- Extra (one or more of the following)
 		- Video Resume
 		- Interactive portfolio / skills
-		- Blog post / Tutorial / Walkthrough
+		- Blog post / Tutorial / Walk through
 			- general thoughts on something
 			- tutorial on using a tool
-			- walkthrough of some code
+			- walk through of some code
 			- include snippets
 			- look into <code> element
 		- Scroll events
@@ -53,14 +53,14 @@ Small Bugs and Notes -
 	- About
 		- Fill in bio
 	- Code
-		- Make carousel click able and allow client to interact with projects
-		- Fill in bio
-	- GitHub
-		- Link projects to github
+		- Make carousel click-able and allow client to interact with projects
+		√ - Fill in bio
+	√ - GitHub
+		√ - Link projects to github
 
 Outline - 
-	√ - Welcome page
-		√ - Navbar
+	- Welcome page
+		- Navbar
 			√ - About
 			√ - Examples of work
 			√ - Social media
@@ -68,21 +68,21 @@ Outline -
 			- Contact Info
 			- Resume
 		√ - Social media
-			√ - Linkedin (API)
+			√ - Linkedin
 			√ - GitHub (API)
-	√ - About
+	- About
 		- Career Story
-	√ - Examples of work
+	- Examples of work
 		- Simple Simon
 		- Weather Map
 		- Calculator
 		- Side Project
 			- 
-	- API
-		- Github, last 3 commits
+	√ - API
+		√ - Github, last 3 commits
 	- Blog
 		- general thoughts on something
-		- walkthrough on some code
+		- walk through on some code
 		- snippets		
 	- Contact Info
 		- email

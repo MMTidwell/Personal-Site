@@ -88,22 +88,26 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 /* ========= ABOUT ========= */
+/* background */
 .content-section-a {
     padding: 50px 0;
     background-color: #DDFFF7;
 }
 
+/* swirl in background */
 #swirl {
     width: 100%;
     position: absolute;
     margin-top: 3%;
 }
 
+/* my pic */
 #headshot {
 	border: 3px solid #721817;
 	border-radius: 50%;
 }
 
+/* red bar on left side */
 .divider {
 	border: 3px solid #721817;
 	width: 40%;
@@ -118,6 +122,7 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 /* ========= CODE ========= */
+/* background */
 .content-section-b {
     padding: 50px 0;
     border-top: 1px solid #e7e7e7;
@@ -125,6 +130,7 @@ body, h1, h2, h3, h4, h5, h6 {
     background-color: #8DA7BE;
 }
 
+/* divider on right side */
 .divider2 {
 	border: 3px solid #721817;
 	width: 40%;
@@ -132,44 +138,51 @@ body, h1, h2, h3, h4, h5, h6 {
 	margin-left: 60%;
 }
 
+/* size of carousel */
 .carousel.slide {
-    height: 500px;
+    height: 60%;
     margin: 0 auto;
-    width: 60%;
-    box-shadow: -10px 10px 10px #444;
-}
-
-.carousel-inner > .item > img, .carousel-inner > .item > a > img {
     width: 100%;
-    height: 500px;
-    border: 3px solid #721817;
-
+    /*box-shadow: -10px 10px 10px #444;*/
 }
 
+/* makes bars on side clear */
+#myCarousel > a.left.carousel-control, #myCarousel > a.right.carousel-control {
+    background: transparent;
+}
+
+/* images in carousel */
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    margin: 0 auto;
+}
+
+/* code bio under carousel */
 .code-disc {
     margin-top: 5%;
     text-align: center;
 }
 
 /* ========= GITHUB ========= */
+/* git boxes */
 #gitInfo {
-    height: 252px;
-    width: 25%;
+    height: 280px;
+    width: 23%;
     padding-top: 3%;
-    /*padding-bottom: 2%;*/
-    /*padding-left: 5px;*/
     padding-right: 5px;
     text-align: center;
     float: left;
     background: rgba(0, 0, 0, 0.8);
     color: aliceblue;
     font-weight: lighter;
-    /*border: 2px solid red;*/
 }
 
+/* makes the info font weight smaller */
 span {
     font-weight: lighter;
 }
+
+
+
 
 
 
