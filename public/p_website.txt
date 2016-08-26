@@ -1,34 +1,8 @@
-√ when you are ready to make a change live...
-	- first add and commit it, for example
-		git add index.html css/style.css
-		git commit
-	- then push the code to your server
-		git push warpspeed master
-	- remember to also push to github so that your repositories don't get out of sync 
-		git push origin master
-
 Guide lines - 
-	√ - Get deployed mid session
-	√ - Will be working on for rest of week
-	√ - Go the extra mile
-	√ - HTML, CSS, JS
 	- Be ready for potential employer
-		- Resume
-		- Contact Info
 	- Can it be seen in mobile
 		- Is your site responsive
 		- How is the layout on different screen sizes
-	- Integrate your past projects
-		- Simple Simon
-		- Weather Map
-		- Calculator
-	- Contact Info
-		- email
-		√ - link to social media (Linkedin, GitHub) - use icons
-	- Have APIs
-		√ - GitHub most recent 3 commits
-		- Weather underground to show the weather where you are
-		- Google maps, twitter, reddit, or youtube
 	- Extra (one or more of the following)
 		- Video Resume
 		- Interactive portfolio / skills
@@ -46,21 +20,12 @@ Guide lines -
 			- Make it unique  
 
 
-Small Bugs and Notes - 
-	- Look through past projects and improve
-	- Landing page
-		- update the navbar to show all sections
-	- About
-		- Fill in bio
-	- Code
-		- Make carousel click-able and allow client to interact with projects
-		√ - Fill in bio
-	√ - GitHub
-		√ - Link projects to github
+
 
 Outline - 
 	- Welcome page
 		- Navbar
+			- Show all sections
 			√ - About
 			√ - Examples of work
 			√ - Social media
@@ -70,22 +35,32 @@ Outline -
 		√ - Social media
 			√ - Linkedin
 			√ - GitHub (API)
+		- Name
+			- Check on font in mobile on name
 	- About
 		- Career Story
+		- Update section for mobile
+			- Pic size
+			- move swirl
+			- bio
 	- Examples of work
-		- Simple Simon
-		- Weather Map
-		- Calculator
+		- Update older project  
+			- Simple Simon
+			- Weather Map
+			- Calculator
+		- Make carousel click-able and link to actual item
 		- Side Project
 			- 
-	√ - API
+	√ - GitHub API
 		√ - Github, last 3 commits
+		√ - Make icons click-able and link to github repos
 	- Blog
 		- general thoughts on something
 		- walk through on some code
 		- snippets		
 	- Contact Info
 		- email
+		- GitHub and LinkedIn
 	
 	
 
