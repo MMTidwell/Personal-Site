@@ -55,6 +55,8 @@ Small Bugs and Notes -
 	- Code
 		- Make carousel click able and allow client to interact with projects
 		- Fill in bio
+	- GitHub
+		- Link projects to github
 
 Outline - 
 	√ - Welcome page

@@ -6,7 +6,7 @@ function gitInfo(repository) {
 	var info = "<div id='gitInfo'>"  
 				+'<i class="fa fa-github fa-5x" id="icon"></i>'
 					+ "<div>"
-						+ "Project:<br>" + "<span>" + name + "</span>" 
+						+ "<br>Project:<br>" + "<span>" + name + "</span>" 
 						+ "<br><br>Last pushed on:<br>" + "<span>" + date + "</span>"  
 					+ "</div>"
 				+ "</div>";
