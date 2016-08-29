@@ -49,6 +49,7 @@ Outline -
 			- Weather Map
 			- Calculator
 		- Make carousel click-able and link to actual item
+		- Update carousel pic
 		- Side Project
 			- 
 	√ - GitHub API

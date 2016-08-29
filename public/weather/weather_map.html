@@ -1,0 +1,75 @@
+<!-- 
+weather api - ffef12efaed7d08d451bf3c9384cff70
+google api - AIzaSyDsEtu_2A8JW_wlAQqynIaDexSMZk6pggk
+ -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <title>Weather Maps!</title>
+
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="/bootstrap-3.3.6-dist/css/bootstrap.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="weather_map.css">
+    </head>
+
+     <!-- Body
+    ================================================== -->
+    <body>
+    	<!-- Current weather conditions for SA -->
+    	<div class="container" id="forecast">
+    		<h1 class="text-center">Todays Forecast</h1>
+    		<h3><span id="cityName"></span></h3>
+    		<h3><span id="date"></span></h3>
+    		<img id="icon">
+    		<h3>Current Temp: <span id="temp"></span></h3>
+    		<h3>High/Low: <span id="daily-temp"></span></h3>
+    		<h3>Description: <span id="description"></span></h3>
+    		<h3>Humidity: <span id="humidity"></span></h3>
+    		<h3>Wind: <span id="wind"></span></h3>
+    		<h3>Pressure: <span id="pressure"></span></h3>
+    		<br>
+    		<br>
+    		<!-- Show a 5 day forecast for SA with boxes and icons -->
+    		<div id="next_day"></div>
+		</div>
+
+		<div id="test"></div>
+    	
+		<!-- Input boxes for lon and lat with submit button -->
+		<!-- Connect button to take input and feed it to API request -->
+    	<div id="input-boxes">
+	    	<input id='lat'>
+	    	<input id='lng'>
+   		</div>
+
+   		<!-- Create a map below 3 day forecast -->
+   		<div id="map_area"></div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+    <!-- AJAX and JS
+    ================================================== -->
+    <!-- script tag holds google maps and API key -->
+ 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsEtu_2A8JW_wlAQqynIaDexSMZk6pggk"></script>
+
+    <script src="/jquery-3.1.0.js"></script>
+
+    <script src="weather_map.js"></script>
+    
+
+    </body>
+</html>

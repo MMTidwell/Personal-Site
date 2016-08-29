@@ -1,0 +1,40 @@
+body {
+	background: black;
+	color: white;
+	text-align: center;
+}
+
+img {
+	box-shadow:0 0 5px green,0 0 8px #fff,0 0 12px #fff,0 0 30px blue,0 0 40px white;
+	border-radius: 50%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	position: relative;
+}
+
+#answer {
+	position: absolute;
+	left: 0;
+	text-align: center;
+	top: 47%;
+	width: 100%;
+}
+
+/* FULL SCREEN */
+@media(max-width:375px) {
+	#answer {
+		position: absolute;
+		margin-top: 100%;
+		border: 2px solid red;
+
+	}
+}
+
+/* PHONE SCREEN */
+@media(max-width:1440px) {
+	#answer {
+		position: absolute;
+		margin-top: 1%;
+
+	}
+}

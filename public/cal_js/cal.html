@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" href="../cal_js/cal.css">
+</head>
+<body>
+	<div class="calc">
+		<div id="input">
+			<label for="left_input"></label>
+			<input id="left_input" name="left_input" readonly>
+
+			<label for="mid_input"></label>
+			<input id="mid_input" name="operand" readonly>
+
+			<label for="right_input"></label>
+			<input id="right_input" name="right_input" readonly>
+		</div>
+		<p class="button">
+				<button class="button numbers">1</button>
+				<button class="button numbers">2</button>
+				<button class="button numbers">3</button>
+				<button class="button operands">+</button>
+
+				<button class="button numbers">4</button>
+				<button class="button numbers">5</button>
+				<button class="button numbers">6</button>
+				<button class="button operands">-</button>
+			
+				<button class="button numbers">7</button>
+				<button class="button numbers">8</button>
+				<button class="button numbers">9</button>
+				<button class="button operands">*</button>
+			
+				<button class="button clear" id="clear">C</button>
+				<button class="button numbers">0</button>
+				<button class="button equals" id="equals">=</button>
+				<button class="button operands">/</button>
+		</p>
+	</div>
+	<script src="../cal_js/cal.js"></script>
+</body>
+</html>

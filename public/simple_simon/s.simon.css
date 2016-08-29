@@ -1,0 +1,52 @@
+
+/* ============ BOXES FOR GAME ==================*/
+#boxes {
+	border: 10px solid black;
+	background-color: black;
+	height: 620px;
+	width: 620px;
+	margin: 0 auto;
+}
+
+.boxed {
+	border: 2px solid black;
+	opacity: 0.5;
+	background-size: cover;
+	height: 300px;
+	width: 300px;
+	float: left;
+}
+
+#green {
+	background-image: url("sam.jpeg");
+}
+
+#red {
+	background-image: url("cas.jpeg");
+}
+
+#blue {
+	background-image: url("crowley.jpg");
+}
+
+#yellow {
+	background-image: url("dean.jpg");	
+}
+
+/* ============ BELLOW THE BOXES ==================*/
+h1, h3 {
+	text-align: center;
+	color: white;
+}
+
+button#playGame {
+	display: block;
+	margin: 0 auto;
+	background-color: white;
+	margin-bottom: 2%;
+}
+
+body {
+	background-image: url("supernatural.jpg");
+	background-size: cover; 
+}

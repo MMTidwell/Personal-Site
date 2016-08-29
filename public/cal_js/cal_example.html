@@ -1,0 +1,159 @@
+<!-- Solution given by Zach -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculate All The Things!</title>
+    <!-- <link rel="stylesheet" href="/css/calculator.css"> -->
+</head>
+<body>
+    <div class="display">
+        <input disabled id="left">
+        <input disabled id="middle">
+        <input disabled id="right">
+    </div>
+
+    <div class="buttons">
+        <button class="number-btn">1</button>
+        <button class="number-btn">2</button>
+        <button class="number-btn">3</button>
+        <button class="operator">+</button>
+        <br>
+        <button class="number-btn">4</button>
+        <button class="number-btn">5</button>
+        <button class="number-btn">6</button>
+        <button class="operator">-</button>
+        <br>
+        <button class="number-btn">7</button>
+        <button class="number-btn">8</button>
+        <button class="number-btn">9</button>
+        <button class="operator">x</button>
+        <br>
+        <button class="number-btn">0</button>
+        <button id="clear">C</button>
+        <button id="equals">=</button>
+        <button class="operator">/</button>
+    </div>
+    <script>
+		/**************************** JavaScript Calculator ***************************\
+		 *
+		 * This is a calculator application. It works by having multiple buttons that
+		 * display things on 3 separate inputs.
+		 *
+		 * There are three displays: left, middle, and right. The middle display will
+		 * hold the operator that is pushed, and the left and right displays will hold
+		 * the numbers pushed. The display object also has a active property to keep
+		 * track of which display (left or right), the numbers should be displayed in.
+		 * The active display will start with the left, and will switch to the right
+		 * after an operator has been pushed.
+		 *
+		 * The buttons fall into several groups
+		 *   - number buttons: the numbers 0 - 9
+		 *   - operator buttons: the arithmetic operators: +, -, x, /
+		 *   - special buttons: clear and equals
+		 *
+		 * The clear button clears all the values and resets the active display to the
+		 * left. The equals button will calculate the expression and store the result
+		 * in the left display and clear out the right display.
+		 * 
+		 **/
+
+		/**
+		 * Let's start by defining our event listeners.
+		 **/
+
+		// clear everything out and reset the active display
+		function onClearClicked () {
+		    displays.left.value   = '';
+		    displays.middle.value = '';
+		    displays.right.value  = '';
+
+		    displays.active = displays.left;
+		}
+
+		function onNumberButtonClick () {
+		    displays.active.value += this.innerText;
+		}
+
+		function onOperatorClicked () {
+		    displays.middle.value = this.innerText;
+		    displays.active       = displays.right;
+		}
+
+		// get the left hand side and right hand side values, as well as the operator,
+		// and perform arithmetic depending on the operator
+		// display the result in the left hand side input
+		// clear out the right hand side display
+		function onEqualsClicked () {
+		    // use parseInt to covert the string value to something we can use
+		    var lhs = parseInt(displays.left.value);
+		    var rhs = parseInt(displays.right.value);
+		    var operator = displays.middle.value;
+		    var result;
+
+		    // make sure we have values we can work with
+		    if (isNaN(lhs) || isNaN(rhs) || operator == '') {
+		        alert('You must first enter a valid expression.');
+		        return;
+		    }
+
+		    // figure out what arithmetic we're going to perform, and perform it
+		    switch (operator) {
+		        case '+':
+		            result = lhs + rhs;
+		            break;
+		        case '-':
+		            result = lhs - rhs;
+		            break;
+		        case 'x':
+		            result = lhs * rhs;
+		            break;
+		        case '/':
+		            result = lhs / rhs;
+		            break;
+		    }
+
+		    displays.left.value  = result;
+		    displays.right.value = '';
+		}
+		 
+		/**
+		 * Variables to keep track of the html elements we'll need.
+		 **/
+
+		var buttons = {
+		    numbers:   document.getElementsByClassName('number-btn'),
+		    operators: document.getElementsByClassName('operator'),
+		    clear:     document.getElementById('clear'),
+		    equals:    document.getElementById('equals'),
+		};
+
+		var displays = {
+		    left:   document.getElementById('left'),
+		    middle: document.getElementById('middle'),
+		    right:  document.getElementById('right'),
+		    active: this.left,
+		};
+
+		/**
+		 * Add our event listeners.
+		 **/
+
+		for (var i = 0; i < buttons.numbers.length; i += 1) {
+		    var button = buttons.numbers[i];
+		    button.addEventListener('click', onNumberButtonClick);
+		}
+
+		for (var i = 0; i < buttons.operators.length; i++) {
+		    var button = buttons.operators[i];
+		    button.addEventListener('click', onOperatorClicked);
+		}
+
+		buttons.equals.addEventListener('click', onEqualsClicked);
+		buttons.clear.addEventListener('click', onClearClicked);
+	</script>
+</body>
+</html>
+	
+</body>
+</html>

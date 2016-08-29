@@ -1,0 +1,43 @@
+
+#forecast {
+	text-align: center;
+	background-color: aliceblue;
+	border: 1px solid black;
+}
+
+body {
+	background-color: lightblue;
+}
+
+span {
+	font-weight: lighter;
+}
+
+#rows {
+	text-align: center;
+	display: inline-block;
+	width: 20%;
+	padding-bottom: 2%;
+}
+
+#input-boxes {
+	display: block;
+	padding: 1%;
+	text-align: center;
+}
+
+#map_area {
+	width: 650px;
+	height: 481px;
+	border: 2px solid black;
+	margin: 0 auto;
+	margin-bottom: 2%
+}
+
+#lat {
+	text-align: center;
+}
+
+#lng {
+	text-align: center;
+}
