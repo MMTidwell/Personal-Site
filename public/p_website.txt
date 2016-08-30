@@ -44,14 +44,18 @@ Outline -
 			- move swirl
 			- bio
 	- Examples of work
-		- Update older project  
-			- Simple Simon
-			- Weather Map
-			- Calculator
-		- Make carousel click-able and link to actual item
-		- Update carousel pic
-		- Side Project
-			- 
+		JS -
+			- Once all projects are 100 push to github and replace the links in the personal website folder and push again. 
+			- Update older project  
+				- Simple Simon
+				- Weather Map
+				- Calculator
+			- Make carousel click-able and link to actual item
+			- Update carousel pic
+			- Side Project
+				- Magic 8 Ball
+		PHP - 
+			- High low game
 	√ - GitHub API
 		√ - Github, last 3 commits
 		√ - Make icons click-able and link to github repos
