@@ -103,6 +103,8 @@ body, h1, h2, h3, h4, h5, h6 {
 
 /* my pic */
 #headshot {
+    height: 60vh;
+    /*margin-left: 15%;*/
 	border: 3px solid #721817;
 	border-radius: 50%;
 }
@@ -116,7 +118,6 @@ body, h1, h2, h3, h4, h5, h6 {
 
 #bio {
     background: rgba(119, 136, 153, 0.4);
-    margin-top: 32%;
     text-align: center;
     border: 2px solid #721817;
 }
