@@ -16,7 +16,7 @@ body, h1, h2, h3, h4, h5, h6 {
 
 /* container for name bar, buttons, and navbar */
 .intro-message {
-	color: cyan;
+    color: cyan;
     position: relative;
     padding-top: 20%;
     padding-bottom: 20%;
@@ -24,8 +24,8 @@ body, h1, h2, h3, h4, h5, h6 {
 
 /* name */
 .intro-message > h1 {
-	font-family: Papyrus,fantasy;
-	font-size: 90px;
+    font-family: Papyrus,fantasy;
+    font-size: 90px;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);   
 }
 
@@ -37,29 +37,29 @@ body, h1, h2, h3, h4, h5, h6 {
 
 /* connect buttons */
 .intro-social-buttons a {
-	background-color: cyan;
+    background-color: cyan;
 }
 
 /* navbar */
 .navbar {
-	height: 20px;
+    height: 20px;
     font-weight: 700;
-	background: transparent;
-	border: transparent;
+    background: transparent;
+    border: transparent;
 }
 
 /* navbar links */
 .nav.navbar-nav.navbar-right li a {
-	background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5);
     color: cyan;
-	font-size: 1.3em;
+    font-size: 1.3em;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);   
 }
 
 /* navbar small */
 .navbar-toggle {
-	position: right;
-	background: cyan;
+    position: right;
+    background: cyan;
 }
 
 
@@ -105,15 +105,15 @@ body, h1, h2, h3, h4, h5, h6 {
 #headshot {
     height: 60vh;
     /*margin-left: 15%;*/
-	border: 3px solid #721817;
-	border-radius: 50%;
+    border: 3px solid #721817;
+    border-radius: 50%;
 }
 
 /* red bar on left side */
 .divider {
-	border: 3px solid #721817;
-	width: 40%;
-	margin-bottom: 6%;
+    border: 3px solid #721817;
+    width: 40%;
+    margin-bottom: 6%;
 }
 
 #bio {
@@ -133,10 +133,10 @@ body, h1, h2, h3, h4, h5, h6 {
 
 /* divider on right side */
 .divider2 {
-	border: 3px solid #721817;
-	width: 40%;
-	margin-bottom: 6%;
-	margin-left: 60%;
+    border: 3px solid #721817;
+    width: 40%;
+    margin-bottom: 6%;
+    margin-left: 60%;
 }
 
 /* size of carousel */
