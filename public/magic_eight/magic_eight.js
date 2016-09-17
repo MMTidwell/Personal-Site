@@ -1,8 +1,8 @@
-// (function(){ 
-	"use strict";
+(function() { 
+"use strict";
 
 	// ====================== VARIABLES =============================
-	var count = 0
+	var count = 0;
 
 	// ====================== START BUTTON =============================
 	function play() {
@@ -98,5 +98,5 @@ play();
 
 
 
-// })();
+})();
 
