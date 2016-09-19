@@ -51,7 +51,7 @@ img {
 	}
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1025px){
 	#answer {
 		margin-left: 46%;
 	}
@@ -68,3 +68,10 @@ img {
 		margin-left: 43%;
 	}
 }
+
+@media screen and (min-width: 760px){
+	#answer {
+		margin-left: 45%;
+	}
+}
+
