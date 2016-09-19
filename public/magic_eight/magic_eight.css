@@ -36,12 +36,35 @@ img {
 
 /* FLEXBOX WILL ADJUST THE AREA OF THE BOX DEPENDING ON SCREEN SIZE */
 #answer {
-	width: 100%;
+	width: 80px;
 	/* ALIGNS TEXT IN THE CENTER OF THE FLEXBOX */
 	-webkit-justify-content: center;
 	margin-top: -180px;
+	margin-left: 40%;
 	position: relative;
 	text-align: center;
-	border: 1px solid red;
 }
 
+@media screen and (min-width: 768px){
+	#answer {
+		margin-left: 45%;
+	}
+}
+
+@media screen and (min-width: 1024px){
+	#answer {
+		margin-left: 46%;
+	}
+}
+
+@media screen and (min-width: 1440px){
+	#answer {
+		margin-left: 46.5%;
+	}
+}
+
+@media screen and (max-width: 320px){
+	#answer {
+		margin-left: 43%;
+	}
+}

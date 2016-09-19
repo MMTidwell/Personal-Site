@@ -31,64 +31,64 @@
 		setTimeout(function() {
 			switch (num) {
 				case 1:
-					$("#answer").html(" It is " + "<br>" + "certain");
+					$("#answer").html("It is certain");
 					break;
 				case 2:
-					$("#answer").html(" It is" + "<br>" + "decidedly so");
+					$("#answer").html("It is decidedly so");
 					break;
 				case 3:
-					$("#answer").html(" Without " + "<br>" + "a doubt");
+					$("#answer").html("Without a doubt");
 					break;
 				case 4:
-					$("#answer").html(" Yes, " + "<br>" + "definitely");
+					$("#answer").html("Yes, definitely");
 					break;
 				case 5:
-					$("#answer").html(" You may" + "<br>" + "rely on it");
+					$("#answer").html("You may rely on it");
 					break;
 				case 6:
-					$("#answer").html(" As I see " + "<br>" + "it, yes");
+					$("#answer").html("As I see it, yes");
 					break;
 				case 7:
-					$("#answer").html(" Most likely");
+					$("#answer").html("Most likely");
 					break;
 				case 8:
-					$("#answer").html(" Outlook good");
+					$("#answer").html("Outlook good");
 					break;
 				case 9:
-					$("#answer").html(" Yes");
+					$("#answer").html("Yes");
 					break;
 				case 10:
-					$("#answer").html(" Signs point " + "<br>" + "to yes");
+					$("#answer").html("Signs point to yes");
 					break;
 				case 11:
-					$("#answer").html(" Reply hazy " + "<br>" + "try again");
+					$("#answer").html("Reply hazy try again");
 					break;
 				case 12:
-					$("#answer").html(" Ask again " + "<br>" + "later");
+					$("#answer").html("Ask again later");
 					break;
 				case 13:
-					$("#answer").html(" Better not " + "<br>" + "tell you now");
+					$("#answer").html("Better not tell you now");
 					break;
 				case 14:
-					$("#answer").html(" Cannot " + "<br>" + "predict now");
+					$("#answer").html("Cannot predict now");
 					break;
 				case 15:
-					$("#answer").html(" Concentrate " + "<br>" + "and ask again");
+					$("#answer").html("Concentrate and ask again");
 					break;
 				case 16:
-					$("#answer").html(" Don't count " + "<br>" + "on it");
+					$("#answer").html("Don't count on it");
 					break;
 				case 17:
-					$("#answer").html(" My reply " + "<br>" + "is no");
+					$("#answer").html("My reply is no");
 					break;
 				case 18:
-					$("#answer").html(" My sources " + "<br>" + "say no");
+					$("#answer").html("My sources say no");
 					break;
 				case 19:
-					$("#answer").html(" Outlook " + "<br>" + "not so good");
+					$("#answer").html("Outlook not so good");
 					break;
 				case 20:
-					$("#answer").html(" Very " + "<br>" + "doubtful");
+					$("#answer").html("Very doubtful");
 					break;
 			}
 		}, 700);
