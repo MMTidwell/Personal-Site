@@ -1,8 +1,7 @@
 body {
 	background: black;
-	color: white;
+	color: silver;
 	text-align: center;
-	margin: 0px;
 }
 
 img {
@@ -12,25 +11,32 @@ img {
 	position: relative;
 }
 
-@-webkit-keyframes spaceboots {
-	0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
-	10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
-	20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
-	30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
-	40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
-	50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
-	60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
-	70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
-	80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
-	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
-	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+/* SHAKES THE BALL */
+/* smaller numbers result in a smaller shake */
+@-webkit-keyframes eight_ball {
+	0% { -webkit-transform: translate(15px, 5px) rotate(0deg); }
+	10% { -webkit-transform: translate(-5px, -15px) rotate(-10deg); }
+	20% { -webkit-transform: translate(-25px, -5px) rotate(10deg); }
+	30% { -webkit-transform: translate(-5px, 15px) rotate(0deg); }
+	40% { -webkit-transform: translate(5px, -5px) rotate(10deg); }
+	50% { -webkit-transform: translate(-5px, 15px) rotate(-10deg); }
+	60% { -webkit-transform: translate(-25px, 5px) rotate(0deg); }
+	70% { -webkit-transform: translate(15px, 5px) rotate(-10deg); }
+	80% { -webkit-transform: translate(-5px, -5px) rotate(10deg); }
+	90% { -webkit-transform: translate(10px, 15px) rotate(0deg); }
+	100% { -webkit-transform: translate(5px, -15px) rotate(-10deg); }
 }
 
+/* SHAKES BALL ON HOVER */
 #first:hover {
-	-webkit-animation-name: spaceboots;
+	/* links this call to the keyframs call */
+	-webkit-animation-name: eight_ball;
+	/* how long it will shake */
 	-webkit-animation-duration: 1s;
 	-webkit-transform-origin:50% 50%;
+	/* how many shakes it will do */
 	-webkit-animation-iteration-count: 1;
+	/* axis that the ball shakes on */
 	-webkit-animation-timing-function: linear;
 }
 
@@ -38,14 +44,16 @@ img {
 #answer {
 	width: 100%;
 	margin-top: -180px;
-	right: 0px;
 	position: relative;
 	text-align: center;
-	height: 80px;
+	height: 65px;
+	color: white;
 }
 
+/* HOLDS THE ANSWER AND FORCES IT TO BE IN THE TRIANGLE */
 .triangle {
 	position: relative;
+	/* PLACES BOX IN MIDDLE OF ANSWER DIV */
 	margin: auto;
 	width: 80px;
 	height: 65px;
