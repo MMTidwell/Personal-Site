@@ -1,21 +1,10 @@
 Guide lines - 
-	- Will be graded
-	- Presenting them on Monday
-	- Make it readable
-	- Does it make since
-	- Comments!!
-	- Push small portions
-
-
-Extras - 
-	- Add texture to the boxes
-	√ - Theme
-	- Sounds
-	- Something special when you hit ___ count
-	- High Score
-	- Difficulty levels
-	- Animation on click
-	- Black box over game, start button on top. When start button is pushed black box fades away and game starts. Or start button in middle and nothing behind it. Once clicked then the game fades in. 
+	√ - Will be graded
+	√ - Presenting them on Monday
+	√ - Make it readable
+	√ - Does it make since
+	√ - Comments!!
+	√ - Push small portions
 
 
 Notes - 
@@ -30,35 +19,35 @@ Notes -
 Client function - 
 	√ - page opens
 	√ - reads page (HTML and CSS)
-	- clicks play button
-		-button is clicked
-	- button flashes
-		- button is random
-		- button will need to play in the same order
-		- lets keep this in an array
-	- client clicks button that was flashed
-		- button is clicked
-		- button is pushed at an array
-	- compares the arrays
-		- if arrays match 
-			- push another button on to the array
-		- if array does not match 
-			- break out of loop 
-			- flash "game over!"
+	√ - clicks play button
+		√ -button is clicked
+	√ - button flashes
+		√ - button is random
+		√ - button will need to play in the same order
+		√ - lets keep this in an array
+	√ - client clicks button that was flashed
+		√ - button is clicked
+		√ - button is pushed at an array
+	√ - compares the arrays
+		√ - if arrays match 
+			√ - push another button on to the array
+		√ - if array does not match 
+			√ - break out of loop 
+			√ - flash "game over!"
 
 
 Outline - 
-	- HTML
+	√ - HTML
 		√ - Build HTML with Bootstrap
 		√ - Attach css, js, and jquery files (check to make sure they are attached correctly)
 		√ - Insert header
 		√ - Insert divs for boxes
 		√ - Insert start button
 		√ - Current Level
-	- CSS
+	√ - CSS
 		√ - Build boxes 
 		√ - Add color to boxes and center in page
-	- JS
+	√ - JS
 		√ - Start button
 		√ - Random button flashes
 			√ - Button is random
@@ -68,10 +57,32 @@ Outline -
 		√ - Compare the arrays
 		√ - Update score
 
+
 Small bugs - 
 	√ - Auto restart 
 	√ - Checks length before index
 	√ - get level from .length of array (this will get rid of var level)
+
+Extras - 
+	- screen responsive
+	- Add texture to the boxes
+	- Sounds
+	√ - Theme
+	- Something special when you hit ___ count
+	- High Score
+	- Difficulty levels
+	√ - Animation on click
+	- Adjust start button
+	- black box over game before play button pressed
+	- comment code out
+	- put on personal site
+
+
+
+
+
+
+
 
 
 

@@ -1,52 +1,68 @@
+/* ============ DIVIDES THE PAGE INTO 2 DIVS ==================*/
+#left {
+	border: 1px solid red;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	text-align: center;
+	font-size: 3em;
+	color: white;
+}
+
+#right {
+	border: 1px solid yellow;
+	padding: 6%;
+	height: 100%;
+}
 
 /* ============ BOXES FOR GAME ==================*/
+/* background box for images */
 #boxes {
-	border: 10px solid black;
 	background-color: black;
-	height: 620px;
-	width: 620px;
+	/* using vw instead of vh so the square will be larger on full screen */
+	height: 50vw;
+	width: 50vw;
+	position: relative;
 	margin: 0 auto;
 }
 
+/* div for all buttons as one */
+#all_buttons {
+	padding: 2.8%;
+}
+
+/* images inside box */
 .boxed {
 	border: 2px solid black;
 	opacity: 0.5;
 	background-size: cover;
-	height: 300px;
-	width: 300px;
 	float: left;
+	height: 23.6vw;
+	width: 23.6vw;
 }
 
 #green {
-	background-image: url("sam.jpeg");
+	background-image: url("/sam.jpeg");
 }
 
 #red {
-	background-image: url("cas.jpeg");
+	background-image: url("/cas.jpeg");
 }
 
 #blue {
-	background-image: url("crowley.jpg");
+	background-image: url("/crowley.jpg");
 }
 
 #yellow {
-	background-image: url("dean.jpg");	
+	background-image: url("/dean.jpg");	
 }
 
-/* ============ BELLOW THE BOXES ==================*/
-h1, h3 {
-	text-align: center;
-	color: white;
-}
-
-button#playGame {
-	display: block;
-	margin: 0 auto;
-	background-color: white;
-	margin-bottom: 2%;
-}
-
+/* ============ OTHER ==================*/
 body {
-	background-image: url("supernatural.jpg");
-	background-size: cover; 
+	background-image: url("/supernatural.jpg");
 }
+
+
+
+
+
+

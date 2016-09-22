@@ -9,36 +9,36 @@
         <title>Simple Simon</title>
 
         <!-- Bootstrap core CSS -->
-        <link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="/bootstrap-3.3.6-dist/css/bootstrap.css">
         <!-- Specific CSS -->
-        <link rel="stylesheet" type="text/css" href="s.simon.css">
+        <link rel="stylesheet" type="text/css" href="/s.simon.css">
+
     </head>
 
     <body>
-        <h1>Simplenatural</h1>
+        <!-- <div class="container"> -->
+<!-- GAME INFO -->
+            <div class="col-sm-4" id="left">
+                <h1>Simplenatural</h1>
+                <a id="playGame">  Play!! </a>
+                <h3>You have done <span id="winCounts">0</span> rounds!</h3>
+            </div>
+<!-- MIAN BOX AND MAIN COLORS -->
+            <div class="col-sm-8" id="right"> 
+                <div id="boxes" class="img-responsive">
+                    <div class="flex-container" id="all_buttons">
+                        <div class="boxed 1 img-responsive" id="green" value="1"></div>
+                        <div class="boxed 2 img-responsive" id="red" value="2"></div>
+                        <div class="boxed 3 img-responsive" id="blue" value="3"></div>
+                        <div class="boxed 4 img-responsive" id="yellow" value="4"></div>
+                    </div>
+                </div> <!-- end boxes div -->
+            </div> <!-- end main box main colors div -->
+        <!-- </div> -->  <!-- end container div -->
 
-        <!-- MIAN BOX AND MAIN COLORS -->
-        <div class="container">
-        	<div id="boxes">
-        		<div class="boxed 1" id="green" value="1"></div>
-                <div class="boxed 2" id="red" value="2"></div>
-                <div class="boxed 3" id="blue" value="3"></div>
-                <div class="boxed 4" id="yellow" value="4"></div>
-        	</div>
-        </div>
 
-        <!-- LEVEL -->
-        <div>
-            <h3>You have done <span id="winCounts">0</span> rounds!</h3>
-        </div>
 
-        <!-- PLAY BUTTON -->
-        <div>
-            <button id="playGame">  Play!! </button>
-        </div>
 
-    <!-- jQuery -->
-    <script src="jquery-3.1.0.js"></script>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -47,10 +47,10 @@
 
     <!-- AJAX and JS
     ================================================== -->
-
-
+    <!-- jQuery -->
+    <script src="/jquery-3.1.0.js"></script>
     <!-- JS File -->
-    <script src="s.simon.js"></script>
+    <script src="/s.simon.js"></script>
 
     </body>
 </html>
