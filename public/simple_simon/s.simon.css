@@ -41,24 +41,24 @@
 }
 
 #green {
-	background-image: url("/sam.jpeg");
+	background-image: url("sam.jpeg");
 }
 
 #red {
-	background-image: url("/cas.jpeg");
+	background-image: url("cas.jpeg");
 }
 
 #blue {
-	background-image: url("/crowley.jpg");
+	background-image: url("crowley.jpg");
 }
 
 #yellow {
-	background-image: url("/dean.jpg");	
+	background-image: url("dean.jpg");	
 }
 
 /* ============ OTHER ==================*/
 body {
-	background-image: url("/supernatural.jpg");
+	background-image: url("supernatural.jpg");
 }
 
 
