@@ -1,9 +1,9 @@
 "use strict";
 
-$(document).ready(function(){ 
+$(document).ready(function(){
 	// ================= Variables ===========================
 	// my api for openweathermap.org
-	const myAPIKey = "ffef12efaed7d08d451bf3c9384cff70";
+	const myAPIKey = "AIzaSyBYgI0JJFkVB4U8iC-sOL4dgGZGY8rbCFA";
 
 	var days = 6;
 	var markerLat = 39.8282
@@ -48,7 +48,7 @@ $(document).ready(function(){
 		var date = day.toDateString();
 		// icon
 		var icon = weatherData.weather[0].icon;
-		// temp 
+		// temp
 		var currentTemp = Math.round(weatherData.main.temp) + "º F";
 		var temp = Math.round(weatherData.main.temp_min) + "º F / " + Math.round(weatherData.main.temp_max) + "º F";
 		// all other
@@ -76,7 +76,7 @@ $(document).ready(function(){
 		var icon = weatherData.weather[0].icon;
 		var currentTemp = Math.round(weatherData.main.temp) + "º F";
 		var temp = Math.round(weatherData.main.temp_min) + "º F / " + Math.round(weatherData.main.temp_max) + "º F";
-		
+
 		var div = "<div>" + city + "</div>" +"<img src='http://openweathermap.org/img/w/" + icon + ".png'>" + "<div>" + currentTemp + "</div>" + "<div>" + temp + "</div>" + "</div>"
 		infowindow.setContent(div)
 	}
@@ -145,7 +145,7 @@ $(document).ready(function(){
 			lat: markerLat,
 			lon: markerLng,
 			// sets the temp to F
-			units: "imperial" 
+			units: "imperial"
 		}).done(function(weatherData){
 			weatherInfo(weatherData)
 			setWindow(weatherData)
@@ -178,7 +178,7 @@ $(document).ready(function(){
 
 					$("#next_day").append(div);
 				});
-				
+
 			}).fail(function(){
 				alert("Error loading weather")
 			});
